@@ -5,7 +5,9 @@ const config = {
   singleQuote: true,
   endOfLine: "auto",
   printWidth: 80,
-  arrowParens: "always"
+  arrowParens: "always",
+  bracketSpacing: true,
+  jsxBracketSameLine: false
 };
 
 module.exports = config;
