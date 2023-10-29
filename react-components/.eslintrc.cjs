@@ -32,5 +32,7 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/no-explicit-any': 'error',
+    'react/destructuring-assignment': 'off',
+    'react/no-access-state-in-setstate': 'off',
   },
 };
